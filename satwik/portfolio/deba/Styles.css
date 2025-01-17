@@ -1,0 +1,124 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.resume {
+    width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: #001F3F;
+    color: #fff;
+    padding: 20px;
+}
+
+.header .photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 20px;
+}
+.profilephoto{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.header .info {
+    flex: 1;
+}
+
+.header .info h1 {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.header .info h2 {
+    margin: 5px 0 0;
+    font-size: 18px;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.left-column {
+    width: 30%;
+    padding-right: 20px;
+    border-right: 2px solid #f4f4f4;
+}
+
+.right-column {
+    width: 70%;
+    padding-left: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #001F3F;
+    text-transform: uppercase;
+}
+
+.contact p, .reference p {
+    margin: 5px 0;
+}
+
+.skills ul, .languages ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills ul li, .languages ul li {
+    margin-bottom: 5px;
+}
+
+.experience .job, .education .degree {
+    margin-bottom: 20px;
+}
+
+.experience .job h4, .education .degree h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.experience .job p, .education .degree p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.experience .job ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+    list-style-type: disc;
+}
+
+.experience .job ul li {
+    margin-bottom: 5px;
+}
+
+.anchortag{
+    color: black;
+}
